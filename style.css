@@ -1,0 +1,198 @@
+
+tl;dr - TWBSColor - Generate your own Bootstrap navbar
+
+Version notes: - Online tool: Bootstrap 3.3.2+ / 4.0.0+ - This answer: Bootstrap 3.0.x
+Available navbars
+
+You've got two basic navbars:
+
+<!-- A light one -->
+<nav class="navbar navbar-default" role="navigation"></nav>
+<!-- A dark one -->
+<nav class="navbar navbar-inverse" role="navigation"></nav>
+Default color usage
+
+Here are the main colors and their usage:
+
+#F8F8F8: navbar background
+#E7E7E7: navbar border
+#777: default color
+#333: hover color (#5E5E5E for .nav-brand)
+#555: active color
+#D5D5D5: active background
+Default style
+
+If you want to put some custom style, here's the CSS you need to change:
+
+.margin {
+  color: rgb(219, 13, 13)
+}
+/* navbar */
+.navbar-default {
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+  font-weight: bold;
+    font-family: Helvetica;
+    color: rgb(247, 247, 247);
+    background-color: rgb(42, 175, 175);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: rgb(30, 189, 189);
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+  font-family: Helvetica;
+  color: rgb(247, 247, 247);
+  background-color: rgb(42, 175, 175);
+}
+
+.navbar-default .navbar-nav > li {
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: rgb(30, 189, 189);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  font-weight: bold;
+  font-family: Helvetica;
+  color: rgb(247, 247, 247);
+  background-color: rgb(42, 175, 175);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  font-weight: bold;
+  font-family: Helvetica;
+
+    color:  rgb(42, 175, 175);
+    background-color: white;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    font-weight: bold;
+    font-family: Helvetica;
+    border-top-color: white;
+    border-bottom-color: #777;
+}
+
+.navbar-default .navbar-nav > .dropdown > {
+  background-color: white;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    font-weight: bold;
+    font-family: Helvetica;
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    font-family: Helvetica;
+    font-weight: bold;
+    border-color: #DDD;
+    
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(42, 175, 175);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      font-weight: bold;
+      font-family: Helvetica;
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      font-weight: bold;
+      font-family: Helvetica;
+          color: #333;
+          
+    }
+}
+
+margin {
+  color:grey;
+}
+
+h2 {
+  color: rgb(24, 168, 173);
+  font-family: Helvetica;
+  font-weight: bold;
+  border-bottom:1px solid rgb(184, 194, 194);
+ 
+  width:100%;
+  padding-bottom:20px;
+}
+
+row {
+  background-color: white;
+  font-family: Helvetica;
+}
+
+
+body { 
+  font-family: Helvetica;
+  padding-top: 65px;
+  background-color: rgb(252, 252, 252);
+  background-image: url("resources/assets/images/NOXFB.png");
+  background-repeat: repeat;
+
+}
+
+.container {
+  padding-top: 85px;
+
+}
+
+.col-md-5 {
+  background-color: white;
+}
+.col-md-6 {
+  color:black;
+  background-color: white;
+}
+.col-md-12 {
+  background-color: white;
+  color: black;
+}
+.col-sm-12 {
+  color:black;
+  
+}
+
+p {
+  color:black;
+  background-color: white;
+}
+table {
+  background-color: white;
+  width: 100%;
+}
+
+
+
+

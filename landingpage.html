@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header fixed-top">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand fixed-top" href="landingpage.html">CA Pollution <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+        </div>
+  
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span></a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="2013NOX.html">2013 NOX Levels</a></li>
+                
+                <li><a href="2014NOX.html">2014 NOX Levels</a></li>
+                <li><a href="2015NOX.html">2015 NOX Levels</a></li>
+                <li><a href="2016NOX.html">2016 NOX Levels</a></li>
+
+              </ul>
+            </li>
+            <li><a href="comparisons.html">Comparisons <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></a></li>
+            <li><a href="data.html">Data  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  
+<body>
+
+
+
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+   
+        <div class="row">
+      
+  
+          <div class="col-md-6"> 
+            <h2><b>NOX in CA Counties</b></h2> 
+      
+             <img src="resources/assets/images/2013NOX.png" alt="2013 CA NOX Levels" width="250" height="175">
+           
+  
+            <div class="text-left">
+              <p> The purpose of this project was to analyze the amount of various types of pollution in the air in various
+                  California Counties.
+              </p> <br>
+              <p> We pulled this data directly from the Environmental Protection Agency and cleaned the data 
+                  extensively in Pandas and ploted with matplotlib. </p> <br>
+           
+            </div>
+  
+        </div>
+
+    
+        
+        <div class="col-md-6">
+            <div class="float-right">
+            <h2><b>Visualizations</b></h2> <br>
+          </div>
+
+        <div class="row"></div>
+            <div class="col-md-6">
+                <div class="float-Left">
+                <a href="2013NOX.html"><img src="resources/assets/images/2013NOX.png" alt="2013 NOX Levels in CA" width=100% height=100%></a>
+        
+                <a href="2014NOX.html"><img src="resources/assets/images/2014NOX.png" alt="2014 NOX Levels in CA" width=100% height=100%></a>
+                </div>
+            </div>  
+       
+              
+            <div class="col-md-6">
+            <div class="float-right">
+            <a href="2015NOX.html"><img src="resources/assets/images/2015NOX.png" alt="2015 NOX Levels in CA" width=100% height=100%></a> 
+            <div class="row"></div>
+            <a href="2016NOX.html"><img src="resources/assets/images/2016NOX.png" alt="2016 NOX Levels in CA" width=100% height=100%></a>   
+            </div>
+        </div>    
+      </div>
+       </div>   
+       </div>  
+     
+
+  
+       
+    
+
+    
+  
+    </body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</html>
